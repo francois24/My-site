@@ -1,0 +1,93 @@
+body{
+    background-image: url("image/phone-wallpaper-2061709.jpg");
+    background-repeat: repeat;
+    
+}
+#navbar{
+    background-color:  #282828;
+}
+h1{
+
+    padding: 20px 30px ;
+    font-family: forte;
+    color: #39ca74;
+    font-size: 40px;
+}
+span{
+    color: #ffffff;
+}
+ul{
+    padding: 20px  ;
+
+}
+li{
+    display: inline-block;
+    padding: 10px 30px;
+
+}
+a{
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: tahoma, sans-serif;
+    font-size: 1.5vw;
+}
+a:hover{
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+    color: #39ca74;
+    transition: 0.5s;
+}
+.banner {
+    margin: 150px auto 40px auto;
+    display: flex;
+  }
+  
+  .center-me {
+    color: #FFF;
+    font-size: 50px;
+    margin: auto;
+  }
+  #banner{
+    background-image: url("image/pexels-andreea-ch-1065874.jpg");
+    height: 400px;
+    background-size: cover;
+  }
+  #info {
+    background-color: white;
+  }
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  #footer{
+    background-color: #282828;
+    color: white;
+    text-align: left;
+    padding: 20px;
+    border-radius: 30px 0 30px 0;
+}
+#footer p{
+    font-family: sans-serif;
+}

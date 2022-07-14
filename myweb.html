@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    
+</head>
+    <title>bootstrap</title>
+</head>
+<style>
+    .call-outs-container {
+    max-width: 1400px;
+    margin: 40px auto 0 auto;
+  }
+  
+  .call-out {
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    flex-basis: 30%;
+  }
+  
+  @media (min-width: 900px) {
+    .call-outs-container {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  
+  .call-out:nth-child(1) {background-color: #c0dbe2;}
+  .call-out:nth-child(2) {background-color: #cdf1c3;}
+  .call-out:nth-child(3) {background-color: #ccb9da;}
+</style>
+<body>
+  <div class="container ">
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid ">
+          <a class="navbar-brand" href="#"><img src="image/leaf.svg" alt="image">Earth Warrior</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                 Environment
+
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Tudor</a></li>
+                  <li><a class="dropdown-item" href="#">Mediterranean Revival</a></li>
+                  <li><a class="dropdown-item" href="#"> Craftsman</a></li>
+                  
+                </ul>
+              </li>
+              <button type="button" class="btn btn-success btn-md" data-bs-target="#exampleModal"data-bs-toggle="modal" >Donate</button>
+            </ul>
+          </div>
+        </div>
+
+      </nav>
+      <div  class="alert alert-info" role="alert" style="text-align:center ;">
+        <strong>Subscribe now!!!</strong>  Keep the Earth Clean and Green.
+
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div>
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item active" aria-current="page">Home</li>
+          <li class="breadcrumb-item active" aria-current="page">Features</li>
+          <li class="breadcrumb-item active" aria-current="page">Blog</li>
+        </ol>
+      </nav>
+      
+
+        <div class="row " style="height: 100px;">
+            <div class="col-3">
+                <div class="card d-inline" style="width: 18rem;">
+                    <img src="EARTH/pexels-laureen-raftopulos-4636324.jpg" class="card-img-top" alt="image">
+                    <div class="card-body "  >
+                      <p class="card-text overflow-hidden"><h4>Save the earth while there still time for tomorrow will be late</h4></p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-9">
+                <div id="carouselExampleControls" class="carousel slide d-inline" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="EARTH/1.jpg" class="d-block w-100" alt="image" style="background-size:cover ;">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="EARTH/2.jpg" class="d-block w-100" alt="image" style="background-size: cover;">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="EARTH/3.jpg" class="d-block w-100" alt="image" style="background-size:cover ;">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="EARTH/4.jpg" class="d-block w-100" alt="image" style="background-size:cover ;">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="EARTH/5.jpg" class="d-block w-100" alt="image" style="background-size:cover ;">
+                      </div>
+                    
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+
+
+            <br>
+            <div class="row ">
+                <div class="col-12 text-center">
+                    <p><h3>CURRENT ENVIRONMENT PROBLEMS THAT OUR WORLD IS FACING</h3></p>
+                    
+                </div>
+              </div>
+
+              <div class="call-outs-container">
+                <div class="call-out">
+                    <img src="earth/pollution-444668_960_720-960x720.jpg " alt="image" style="height:300px;">
+                  <h4>Feature 1</h4>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam obcaecati vel, placeat numquam omnis sit consectetur nobis molestias! Explicabo deserunt. Consectetur adipisicing elit. Quibusdam obcaecati vel, placeat numquam placeat numquam omnis sit consectetur.</p>
+                </div>
+              
+                <div class="call-out">
+                    <img src="earth/pollution-444668_960_720-960x720.jpg " alt="image" style="height:300px;">
+                  <h4>Feature 2</h4>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam obcaecati vel, placeat numquam omnis sit consectetur nobis molestias! Explicabo deserunt placeat numquam omnis.</p>
+                </div>
+              
+                <div class="call-out">
+                    <img src="earth/pollution-444668_960_720-960x720.jpg " alt="image" style="height:300px;">
+                  <h4>Feature 3</h4>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam obcaecati vel, placeat numquam omnis sit.</p>
+                </div>
+              </div>
+        </div>
+
+  </div>
+
+
+
+  <div class="row">
+    <div class="col-12">
+
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Donate</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="name" class="col-form-label">Name:</label>
+            <input type="text" class="form-control" id="name">
+          </div>
+          <div class="mb-3">
+            <label for="gmail" class="col-form-label">Gmail:</label>
+            <input type="text" class="form-control" id="gmail">
+          </div>
+          <div class="mb-3">
+            <label for="message-text" class="col-form-label">Amount:  <br> <img src="earth/cc-paypal.svg" alt="image">
+            </label>
+            <textarea class="form-control" id="message-text"></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Send message</button>
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+  </div>
+
+
+ 
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+
+</html>
