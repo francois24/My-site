@@ -28,3 +28,14 @@ body{
 .text-reset{
     text-decoration: none;
 }
+.nav-link:hover{
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 10px;
+}
+.text-reset:hover{
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+}

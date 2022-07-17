@@ -27,5 +27,15 @@ body{
     margin: 4px 2px;
     cursor: pointer;
     color: white;
-    
   }
+  .nav-link:hover{
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 10px;
+  }
+.text-reset:hover{
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
