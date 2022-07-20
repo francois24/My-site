@@ -1,6 +1,7 @@
 
+
 .banner-area{
-    background-image: url("image/pexels-sevenstorm-juhaszimrus-409813.jpg");
+    background-image: url("image/pexels-quang-nguyen-vinh-2132227.jpg");
     background-size: cover;
     background-position: center center;
     height: 50vh;
@@ -49,7 +50,6 @@
 .card-text{
     font-family: 'poppins',sans-serif;
 }
-
 .form-control {
 	box-shadow: none;
 	border-color: #ddd;
