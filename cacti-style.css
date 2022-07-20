@@ -8,7 +8,7 @@
     width: 100%;
     display: flex;
 }
-.banner-area:after{
+.banner-area::after{
     content: ' ';
     position: absolute;
     display: block;
