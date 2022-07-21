@@ -145,3 +145,12 @@
     padding: 10px;
     text-decoration: none;
 }
+.prod-image{
+    overflow: hidden;
+}
+.prod-image img {
+    transition: all 1.5s ease;
+}
+.prod-image:hover img{
+    transform: scale(1.5);
+}
